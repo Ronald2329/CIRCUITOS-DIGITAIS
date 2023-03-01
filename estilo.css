@@ -1,0 +1,41 @@
+form.questionario{
+    padding-top: 5rem;
+    padding-left: 30rem;
+    background-color: black;
+    color: white;
+    padding-block-end: 5rem;
+}
+
+@media (max-width: 900px){
+form.questionario{
+    padding-left: 20rem; 
+}
+}
+
+@media (max-width: 700px){
+form.questionario{
+    padding-left: 5rem; 
+}
+}
+
+@media (max-width: 450px){
+    form.questionario{
+        padding-left: 2rem; 
+        padding-right: 2rem;
+        
+    }
+
+    option{
+        padding-left: 0.5rem;
+    }
+}
+
+@media (max-width: 400px){
+    form.questionario{
+        padding-left: 1rem; 
+    }
+
+    option{
+        padding-left: 0.1rem;
+    }
+}
